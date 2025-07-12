@@ -28,3 +28,8 @@ resource "azurerm_storage_account" "strg1" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
+
+resource "azurerm_resource_group" "rg4" {
+  name     = "arsh4"
+  location = "West Europe"
+}
